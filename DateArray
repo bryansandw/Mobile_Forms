@@ -1,3 +1,5 @@
+//Block finds todays date and the next 10 days to be used in a drop down box in an Adobe Form 
+
 var currentDate = new Date(); //Today's date
 var day = currentDate.getDate();
 var month = currentDate.getMonth() + 1;
